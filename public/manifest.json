@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "My Chrome Extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension with custom new tab",
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
